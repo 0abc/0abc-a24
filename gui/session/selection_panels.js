@@ -976,10 +976,12 @@ g_SelectionPanels.Training = {
 				getResistanceTooltip,
 				getGarrisonTooltip,
 				getProjectilesTooltip,
-				getSpeedTooltip,
-				getResourceDropsiteTooltip
+				getSpeedTooltip
 			].map(func => func(template)));
-
+	
+		tooltips = tooltips.concat(getGatherTooltip(template));
+		tooltips = tooltips.concat(getResourceDropsiteTooltip(template));
+	
 		tooltips.push(showTemplateViewerOnRightClickTooltip());
 		tooltips.push(
 			formatBatchTrainingString(buildingsCountToTrainFullBatch, fullBatchSize, remainderBatch),

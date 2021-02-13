@@ -1,23 +1,13 @@
 var g_MainMenuItems = [
 	{
-		"caption": translate("Learn to Play"),
-		"tooltip": translate("Learn how to play, start the tutorial, discover the technology trees, and the history behind the civilizations."),
+		"caption": translate("Information"),
+		"tooltip": translate("View the manual, structure tree, civilization overview, catafalque overview, map browser, and welcome screen."),
 		"submenu": [
 			{
 				"caption": translate("Manual"),
 				"tooltip": translate("Open the 0 A.D. Game Manual."),
 				"onPress": () => {
 					Engine.PushGuiPage("page_manual.xml");
-				}
-			},
-			{
-				"caption": translate("Tutorial"),
-				"tooltip": translate("Start the economic tutorial."),
-				"onPress": () => {
-					Engine.SwitchGuiPage("page_gamesetup.xml", {
-						"mapType": "scenario",
-						"map": "maps/tutorials/starting_economy_walkthrough"
-					});
 				}
 			},
 			{
@@ -52,11 +42,18 @@ var g_MainMenuItems = [
 				}
 			},
 			{
-				"caption": translate("Map Overview"),
+				"caption": translate("Map Browser"),
 				"tooltip": translate("View the different maps featured in 0 A.D."),
 				"onPress": () => {
 					Engine.PushGuiPage("page_mapbrowser.xml");
 				},
+			},
+			{
+				"caption": translate("Welcome Screen"),
+				"tooltip": translate("Show the Welcome Screen again. Useful if you hid it by mistake."),
+				"onPress": () => {
+					Engine.PushGuiPage("page_splashscreen.xml");
+				}
 			}
 		]
 	},
@@ -64,6 +61,16 @@ var g_MainMenuItems = [
 		"caption": translate("Single-player"),
 		"tooltip": translate("Start, load, or replay a single-player game."),
 		"submenu": [
+			{
+				"caption": translate("Tutorial"),
+				"tooltip": translate("Start the economic tutorial."),
+				"onPress": () => {
+					Engine.SwitchGuiPage("page_gamesetup.xml", {
+						"mapType": "scenario",
+						"map": "maps/tutorials/starting_economy_walkthrough"
+					});
+				}
+			},
 			{
 				"caption": translate("Matches"),
 				"tooltip": translate("Start a new single-player game."),
@@ -181,13 +188,6 @@ var g_MainMenuItems = [
 				"tooltip": translate("Select and download mods for the game."),
 				"onPress": () => {
 					Engine.SwitchGuiPage("page_modmod.xml");
-				}
-			},
-			{
-				"caption": translate("Welcome Screen"),
-				"tooltip": translate("Show the Welcome Screen again. Useful if you hid it by mistake."),
-				"onPress": () => {
-					Engine.PushGuiPage("page_splashscreen.xml");
 				}
 			}
 		]

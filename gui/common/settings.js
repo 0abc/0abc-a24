@@ -169,23 +169,23 @@ function loadMapTypes()
 {
 	return [
 		{
-			"Name": "skirmish",
-			"Title": translateWithContext("map", "Skirmish"),
-			"Description": translate("A map with a predefined landscape and number of players. Freely select the other game settings."),
-			"Default": true,
-			"Path": "maps/skirmishes/",
-			"Suffix": ".xml",
-			"GetData": Engine.LoadMapSettings,
-			"CheckIfExists": mapPath => Engine.FileExists(mapPath)
-		},
-		{
 			"Name": "random",
 			"Title": translateWithContext("map", "Random"),
 			"Description": translate("Create a unique map with a different resource distribution each time. Freely select the number of players and teams."),
+			"Default": true,
 			"Path": "maps/random/",
 			"Suffix": ".json",
 			"GetData": mapPath => Engine.ReadJSONFile(mapPath + ".json"),
 			"CheckIfExists": mapPath => Engine.FileExists(mapPath + ".json")
+		},
+		{
+			"Name": "skirmish",
+			"Title": translateWithContext("map", "Skirmish"),
+			"Description": translate("A map with a predefined landscape and number of players. Freely select the other game settings."),
+			"Path": "maps/skirmishes/",
+			"Suffix": ".xml",
+			"GetData": Engine.LoadMapSettings,
+			"CheckIfExists": mapPath => Engine.FileExists(mapPath)
 		},
 		{
 			"Name": "scenario",

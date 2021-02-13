@@ -326,9 +326,7 @@ function displaySingle(entState)
 		getSpeedTooltip,
 		getGarrisonTooltip,
 		getPopulationBonusTooltip,
-		getProjectilesTooltip,
-		getResourceTrickleTooltip,
-		getLootTooltip
+		getProjectilesTooltip
 	].map(func => func(entState)).filter(tip => tip).join("\n");
 	if (detailedTooltip)
 	{

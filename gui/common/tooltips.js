@@ -212,7 +212,7 @@ function getDamageResistanceTooltip(resistanceTypeTemplate)
 		"details":
 			g_DamageTypesMetadata.sort(Object.keys(resistanceTypeTemplate)).map(
 				dmgType => sprintf(translate("%(damage)s %(damageType)s %(resistancePercentage)s"), {
-					"damage": resistanceTypeTemplate[dmgType].toFixed(1),
+					"damage": resistanceTypeTemplate[dmgType],
 					"damageType": unitFont(translateWithContext("damage type", g_DamageTypesMetadata.getName(dmgType))),
 					"resistancePercentage":
 						'[font="sans-10"]' +
