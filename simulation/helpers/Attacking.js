@@ -171,7 +171,7 @@ Attacking.prototype.GetTotalAttackEffects = function(target, effectData, effectT
 
 	if (effectType == "Damage")
 		for (let type in effectData.Damage)
-			total += effectData.Damage[type] * Math.pow(0.9, resistanceStrengths.Damage ? resistanceStrengths.Damage[type] || 0 : 0);
+			total += effectData.Damage[type] * randFloat(0.5, 1.5) * Math.pow(0.9, resistanceStrengths.Damage ? resistanceStrengths.Damage[type] || 0 : 0);
 	else if (effectType == "Capture")
 	{
 		total = effectData.Capture * Math.pow(0.9, resistanceStrengths.Capture || 0);
