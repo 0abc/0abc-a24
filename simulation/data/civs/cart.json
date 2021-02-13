@@ -18,18 +18,7 @@
 			"Type": "peace"
 		}
 	],
-	"CivBonuses": [
-		{
-			"Name": "Commercial Acumen",
-			"History": "",
-			"Description": "Merchant Ships +25% trade gain."
-		},
-		{
-			"Name": "Desirable Products",
-			"History": "",
-			"Description": "Docks and Markets +10% international trade bonus."
-		}
-	],
+	"CivBonuses": [],
 	"WallSets": [
 		"structures/wallset_palisade",
 		"structures/cart/wallset_short",
