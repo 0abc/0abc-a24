@@ -1,0 +1,16 @@
+{
+	"genericName": "Diaspora",
+	"description": "Keep in touch with people permanently living and working abroad, to be able to use their network to collect resources.",
+	"cost": {
+		"silver": 500
+	},
+	"requirements": { "tech": "phase_village" },
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"icon": "diaspora.png",
+	"researchTime": 40,
+	"tooltip": "Allows using allied dropsites.",
+	"modifications": [
+		{ "value": "Player/sharedDropsites", "replace": true }
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

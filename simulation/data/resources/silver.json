@@ -1,0 +1,14 @@
+{
+	"code": "silver",
+	"name": "Silver",
+	"description": "Obtain from taxation, trade, and tribute.",
+	"order": 5,
+	"subtypes": {
+		"electrum": "Electrum",
+		"gold": "Gold",
+		"silver": "Silver"
+	},
+	"properties": ["barterable", "tradable", "tributable"],
+	"truePrice": 100,
+	"aiAnalysisInfluenceGroup": "ignore"
+}

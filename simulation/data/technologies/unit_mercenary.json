@@ -1,0 +1,32 @@
+{
+	"autoResearch": true,
+	"icon": "coins.png",
+	"tooltip": "Non-Champion Mercenaries no food, wood, stone, or metal costs, −30% training time, and unable to gather resources; Infantry costs 60 silver, Cavalry 90 silver, Elephants 120 silver.",
+	"modifications": [
+		{ "value": "Cost/BuildTime", "multiply": 0.7 },
+		{ "value": "Cost/Resources/food", "replace": 0 },
+		{ "value": "Cost/Resources/wood", "replace": 0 },
+		{ "value": "Cost/Resources/stone", "replace": 0 },
+		{ "value": "Cost/Resources/metal", "replace": 0 },
+		{ "value": "Cost/Resources/silver", "replace": 60, "affects": "Infantry" },
+		{ "value": "Cost/Resources/silver", "replace": 90, "affects": "Cavalry" },
+		{ "value": "Cost/Resources/silver", "replace": 120, "affects": "Elephant" },
+		{ "value": "Loot/food", "replace": 0 },
+		{ "value": "Loot/wood", "replace": 0 },
+		{ "value": "Loot/stone", "replace": 0 },
+		{ "value": "Loot/metal", "replace": 0 },
+		{ "value": "Loot/silver", "replace": 6, "affects": "Infantry" },
+		{ "value": "Loot/silver", "replace": 9, "affects": "Cavalry" },
+		{ "value": "Loot/silver", "replace": 12, "affects": "Elephant" },
+		{ "value": "ResourceGatherer/Rates/food.fish", "replace": 0 },
+		{ "value": "ResourceGatherer/Rates/food.fruit", "replace": 0 },
+		{ "value": "ResourceGatherer/Rates/food.grain", "replace": 0 },
+		{ "value": "ResourceGatherer/Rates/food.meat", "replace": 0 },
+		{ "value": "ResourceGatherer/Rates/wood.tree", "replace": 0 },
+		{ "value": "ResourceGatherer/Rates/wood.ruins", "replace": 0 },
+		{ "value": "ResourceGatherer/Rates/stone.rock", "replace": 0 },
+		{ "value": "ResourceGatherer/Rates/stone.ruins", "replace": 0 },
+		{ "value": "ResourceGatherer/Rates/metal.ore", "replace": 0 }
+	],
+	"affects": ["Mercenary !Champion"]
+}

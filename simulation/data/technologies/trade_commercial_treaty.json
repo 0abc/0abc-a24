@@ -1,0 +1,17 @@
+{
+	"genericName": "Commercial Treaty",
+	"description": "Promote international trade by signing a treaty. It won't make a difference for you if you're only trading with yourself, but you will benefit if you're trading with others, as will others trading with you.",
+	"cost": {
+		"silver": 100
+	},
+	"requirements": { "tech": "phase_town" },
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "sibylline_books.png",
+	"researchTime": 40,
+	"tooltip": "+10% international trade bonus.",
+	"modifications": [
+		{ "value": "Market/InternationalBonus", "add": 0.1 }
+	],
+	"affects": ["Trade"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

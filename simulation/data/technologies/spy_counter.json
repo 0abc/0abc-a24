@@ -1,0 +1,16 @@
+{
+	"genericName": "Counterintelligence",
+	"description": "Recruit a network of informants to watch over your people.",
+	"cost": {
+		"silver": 1800
+	},
+	"requirements": { "tech": "phase_city" },
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "vial_poison.png",
+	"researchTime": 60,
+	"tooltip": "Units +100% more expensive to bribe.",
+	"modifications": [
+		{ "value": "Player/SpyCostMultiplier", "multiply": 2 }
+	],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

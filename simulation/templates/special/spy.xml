@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Cost>
+    <Population>0</Population>
+    <BuildTime>0</BuildTime>
+    <Resources>
+      <silver>100</silver>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>gaia</Civ>
+    <GenericName>Spy</GenericName>
+    <Classes datatype="tokens">Spy</Classes>
+    <RequiredTechnology>unlock_spies</RequiredTechnology>
+    <Undeletable>true</Undeletable>
+  </Identity>
+  <VisionSharing>
+    <Bribable>false</Bribable>
+    <Duration>30</Duration>
+    <FailureCostRatio>0.25</FailureCostRatio>
+  </VisionSharing>
+</Entity>
