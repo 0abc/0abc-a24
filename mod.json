@@ -1,0 +1,11 @@
+{
+	"name": "0abc",
+	"version": "24",
+	"label": "0 A.D. is Actually Before Christ.",
+	"url": "https://github.com/0abc/0abc-a24.git",
+	"description": "A modification of “0 A.D. Empires Ascendant, Alpha XXIV: Xšayāršā”, changes many things, see 0abc-readme.pdf.",
+	"dependencies": [
+		"0ad=0.0.24"
+	],
+	"type": "mod"
+}
