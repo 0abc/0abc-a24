@@ -75,6 +75,20 @@
 	<!-- Limit to the minimal supported width of 1024 pixels. -->
 	<object name="bottomPanel">
 
+		<object size="50%-86 100%-200 50%+114 100%">
+			<include directory="gui/session/minimap/"/>
+		</object>
+
+		<!-- Selection Details Panel (middle). -->
+		<object name="selectionDetails"
+			size="50%-310 100%-200 50%-82 100%"
+			sprite="selectionDetailsPanel"
+			type="image"
+			z="20"
+		>
+			<include directory="gui/session/selection_panels_middle/"/>
+		</object>
+
 		<!-- Supplemental Details Panel (left). -->
 		<object name="supplementalSelectionDetails"
 			size="50%-512 100%-166 50%-306 100%"
@@ -83,19 +97,6 @@
 			z="20"
 		>
 			<include directory="gui/session/selection_panels_left/"/>
-		</object>
-
-		<!-- Selection Details Panel (middle). -->
-		<object name="selectionDetails"
-			size="50%-310 100%-200 50%-82 100%"
-			sprite="selectionDetailsPanel"
-			type="image"
-		>
-			<include directory="gui/session/selection_panels_middle/"/>
-		</object>
-
-		<object size="50%-86 100%-200 50%+114 100%">
-			<include directory="gui/session/minimap/"/>
 		</object>
 
 		<!-- Commands Panel (right). -->

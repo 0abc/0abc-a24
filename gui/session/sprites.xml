@@ -184,11 +184,11 @@
 			texture_size="0 0 4 4"
 			size="100%-4 100%-4 100% 100%"
 		/>
-		<image texture="global/border/line_corner_bottom_middle.png"
+		<image texture="global/border/line_corner_bottom_left.png"
 			texture_size="0 0 4 4"
 			size="0 100%-4 4 100%"
 		/>
-		<image texture="global/border/line_corner_middle_right.png"
+		<image texture="global/border/line_corner_top_left.png"
 			texture_size="0 0 4 4"
 			size="0 0 4 4"
 		/>
@@ -230,11 +230,11 @@
 		/>
 
 		<!-- corners -->
-		<image texture="global/border/line_corner_top_right.png"
+		<image texture="global/border/line_corner_top_middle.png"
 			texture_size="0 0 4 4"
 			size="100%-4 0 100% 4"
 		/>
-		<image texture="global/border/line_corner_bottom_right.png"
+		<image texture="global/border/line_corner_bottom_middle.png"
 			texture_size="0 0 4 4"
 			size="100%-4 100%-4 100% 100%"
 		/>

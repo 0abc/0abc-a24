@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <object type="button"
-	size="50%-48 -26 50%+48 70"
+	size="0 0 96 96"
 	name="civIcon"
 	tooltip_style="sessionToolTipBold"
 >

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <object name="panelEntityButtons" size="2 38 50 93">
 	<!-- Displays buttons for the most important units like heroes and relics -->
-	<repeat count="19" var="n">
+	<repeat count="30" var="n">
 		<object name="panelEntityButton[n]" size="0 0 50 50" type="button" hidden="true" style="iconButton" tooltip_style="sessionToolTip">
 
 			<!-- Placeholders storing the position for the bars -->

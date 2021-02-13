@@ -13,11 +13,11 @@ class CounterManager
 
 		this.resourceCounts = Engine.GetGUIObjectByName("resourceCounts");
 
+		this.addCounter("population", CounterPopulation);
+
 		// TODO: filter resources depending on JSON file
 		for (let resCode of g_ResourceData.GetCodes())
 			this.addCounter(resCode, CounterResource);
-
-		this.addCounter("population", CounterPopulation);
 
 		this.init();
 
