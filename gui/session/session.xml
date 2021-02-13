@@ -72,17 +72,12 @@
 	<!-- Structure placement info tooltip -->
 	<object name="placementTooltip" type="tooltip" independent="true" style="informationTooltip"/>
 
-	<!-- START of BOTTOM PANEL -->
 	<!-- Limit to the minimal supported width of 1024 pixels. -->
-	<object size="50%-512 0 50%+512 100%">
-
-		<object size="50%-512 100%-200 50%-312 100%">
-			<include directory="gui/session/minimap/"/>
-		</object>
+	<object name="bottomPanel">
 
 		<!-- Supplemental Details Panel (left). -->
 		<object name="supplementalSelectionDetails"
-			size="50%-316 100%-166 50%-110 100%"
+			size="50%-512 100%-166 50%-306 100%"
 			sprite="supplementalDetailsPanel"
 			type="image"
 			z="20"
@@ -92,11 +87,15 @@
 
 		<!-- Selection Details Panel (middle). -->
 		<object name="selectionDetails"
-			size="50%-114 100%-200 50%+114 100%"
+			size="50%-310 100%-200 50%-82 100%"
 			sprite="selectionDetailsPanel"
 			type="image"
 		>
 			<include directory="gui/session/selection_panels_middle/"/>
+		</object>
+
+		<object size="50%-86 100%-200 50%+114 100%">
+			<include directory="gui/session/minimap/"/>
 		</object>
 
 		<!-- Commands Panel (right). -->
@@ -108,8 +107,8 @@
 		>
 			<include directory="gui/session/selection_panels_right/"/>
 		</object>
-	</object><!-- END OF BOTTOM PANEL -->
-</object> <!-- END OF SESSION OBJECT -->
+	</object>
+</object>
 
 <!-- Selection bandbox -->
 <object name="bandbox" type="image" sprite="bandbox" ghost="true" hidden="true" z="200"/>
