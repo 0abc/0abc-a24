@@ -17,15 +17,20 @@
     </Slaughter>
   </Attack>
   <Cost>
+    <Population>2</Population>
     <BuildTime>16</BuildTime>
     <Resources>
       <food>100</food>
+      <metal>40</metal>
     </Resources>
   </Cost>
   <Footprint replace="">
     <Square width="3.0" depth="6.0"/>
     <Height>6.0</Height>
   </Footprint>
+  <Health>
+    <Max>150</Max>
+  </Health>
   <Identity>
     <GenericName>Cavalry</GenericName>
     <Rank>Basic</Rank>
@@ -36,11 +41,9 @@
     </Formations>
   </Identity>
   <Loot>
-    <xp>130</xp>
+    <xp>150</xp>
     <food>10</food>
-    <wood>5</wood>
-    <stone>0</stone>
-    <metal>0</metal>
+    <metal>4</metal>
   </Loot>
   <Position>
     <TurnRate>5</TurnRate>
@@ -86,6 +89,6 @@
     <WalkSpeed op="mul">2</WalkSpeed>
   </UnitMotion>
   <Vision>
-    <Range>92</Range>
+    <Range>80</Range>
   </Vision>
 </Entity>

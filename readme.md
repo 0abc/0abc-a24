@@ -37,5 +37,15 @@
 * All support units are bribable.
 * Some civilization bonuses have been removed or replaced.
 * Team bonuses have been deprecated.
+* Unit base movement speed is slightly lowered.
+* Animals are no longer visible in fog.
+* Corrals are deprecated.
+* Advanced soldiers cost +20 metal, elite another +20 metal
+* Cavalry: 
+  * can no longer gather meat;
+  * basic cost 100 food, 40 metal and champion cost 150 food, 100 metal;
+  * require 2 population each;
+  * lowered melee attack range;
+  * lowered vision range.
 
 [(return to table of contents)](https://github.com/0abc/0abc-a24#table-of-contents)

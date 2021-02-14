@@ -21,11 +21,6 @@
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
     </Ranged>
   </Attack>
-  <Cost>
-    <Resources>
-      <wood>50</wood>
-    </Resources>
-  </Cost>
   <Health>
     <Max>100</Max>
   </Health>
