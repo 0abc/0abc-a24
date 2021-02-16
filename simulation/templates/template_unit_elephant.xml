@@ -56,6 +56,6 @@
     <PassabilityClass>large</PassabilityClass>
   </UnitMotion>
   <Vision>
-    <Range>100</Range>
+    <Range>90</Range>
   </Vision>
 </Entity>

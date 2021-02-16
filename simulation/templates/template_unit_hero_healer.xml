@@ -35,4 +35,7 @@
       <order_heal>voice/{lang}/civ/civ_{phenotype}_heal.xml</order_heal>
     </SoundGroups>
   </Sound>
+  <Vision>
+    <Range>70</Range>
+  </Vision>
 </Entity>

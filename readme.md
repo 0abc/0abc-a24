@@ -38,6 +38,7 @@
 * All support units are bribable.
 * Some civilization bonuses have been removed or replaced.
 * Team bonuses have been deprecated.
+* Units no longer give resource loot.
 * Unit base movement speed is slightly lowered.
 * Animals are no longer visible in fog.
 * Corrals are deprecated.

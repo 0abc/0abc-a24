@@ -50,11 +50,6 @@
     <VisibleClasses datatype="tokens">Ranged Warship Trireme</VisibleClasses>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
-  <Loot>
-    <xp>100</xp>
-    <wood>30</wood>
-    <metal>20</metal>
-  </Loot>
   <Position>
     <TurnRate>2</TurnRate>
   </Position>

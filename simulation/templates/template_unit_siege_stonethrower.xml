@@ -45,8 +45,6 @@
   </Identity>
   <Loot>
     <xp>250</xp>
-    <wood>80</wood>
-    <stone>50</stone>
   </Loot>
   <Pack>
     <Time>10000</Time>

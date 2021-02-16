@@ -30,9 +30,6 @@
     <Tooltip>Counters: 3× vs Cavalry.</Tooltip>
     <VisibleClasses datatype="tokens">Spearman</VisibleClasses>
   </Identity>
-  <Loot>
-    <wood>5</wood>
-  </Loot>
   <Resistance>
     <Entity>
       <Damage>

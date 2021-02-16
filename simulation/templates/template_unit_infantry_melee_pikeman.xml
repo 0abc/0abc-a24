@@ -33,9 +33,6 @@
       special/formations/syntagma
     </Formations>
   </Identity>
-  <Loot>
-    <wood>5</wood>
-  </Loot>
   <Resistance>
     <Entity>
       <Damage>

@@ -6,7 +6,6 @@
       <Damage>
         <Hack>7</Hack>
         <Pierce>2</Pierce>
-        <Crush>0</Crush>
       </Damage>
       <MaxRange>3</MaxRange>
       <PrepareTime>500</PrepareTime>
@@ -35,8 +34,7 @@
     <VisibleClasses datatype="tokens">Dog Melee</VisibleClasses>
   </Identity>
   <Loot>
-    <xp>100</xp>
-    <food>10</food>
+    <xp>50</xp>
   </Loot>
   <ResourceGatherer disable=""/>
   <Selectable>

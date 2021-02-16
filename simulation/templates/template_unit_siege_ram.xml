@@ -40,8 +40,6 @@
   </Identity>
   <Loot>
     <xp>200</xp>
-    <wood>60</wood>
-    <metal>30</metal>
   </Loot>
   <Resistance>
     <Entity>

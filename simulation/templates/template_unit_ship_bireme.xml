@@ -50,11 +50,6 @@
     <VisibleClasses datatype="tokens">Ranged Warship Bireme</VisibleClasses>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
-  <Loot>
-    <xp>75</xp>
-    <wood>25</wood>
-    <metal>15</metal>
-  </Loot>
   <ResourceGatherer disable=""/>
   <Sound>
     <SoundGroups>

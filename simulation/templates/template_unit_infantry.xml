@@ -66,10 +66,6 @@
   </Identity>
   <Loot>
     <xp>100</xp>
-    <food>5</food>
-    <wood>0</wood>
-    <stone>0</stone>
-    <metal>0</metal>
   </Loot>
   <Position>
     <Anchor>upright</Anchor>

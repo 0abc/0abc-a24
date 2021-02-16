@@ -20,8 +20,6 @@
   </Identity>
   <Loot>
     <xp>10</xp>
-    <food>10</food>
-    <metal>8</metal>
   </Loot>
   <Position>
     <Anchor>pitch</Anchor>

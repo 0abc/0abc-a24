@@ -26,8 +26,6 @@
   </Identity>
   <Loot>
     <xp>300</xp>
-    <food>15</food>
-    <metal>10</metal>
   </Loot>
   <Position>
     <TurnRate>5</TurnRate>

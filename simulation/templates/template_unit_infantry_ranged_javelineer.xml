@@ -32,9 +32,6 @@
     <GenericName>Infantry Javelineer</GenericName>
     <VisibleClasses datatype="tokens">Javelineer</VisibleClasses>
   </Identity>
-  <Loot>
-    <wood>5</wood>
-  </Loot>
   <Resistance>
     <Entity>
       <Damage>

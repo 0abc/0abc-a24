@@ -33,10 +33,6 @@
     <Classes datatype="tokens">-ConquestCritical</Classes>
     <VisibleClasses datatype="tokens">FishingBoat</VisibleClasses>
   </Identity>
-  <Loot>
-    <xp>1</xp>
-    <wood>10</wood>
-  </Loot>
   <Resistance>
     <Entity>
       <Damage>

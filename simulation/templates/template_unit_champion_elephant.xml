@@ -21,8 +21,6 @@
   </Identity>
   <Loot>
     <xp>300</xp>
-    <food>30</food>
-    <metal>20</metal>
   </Loot>
   <Position>
     <TurnRate>3</TurnRate>
@@ -57,6 +55,6 @@
     <PassabilityClass>large</PassabilityClass>
   </UnitMotion>
   <Vision>
-    <Range>100</Range>
+    <Range>90</Range>
   </Vision>
 </Entity>

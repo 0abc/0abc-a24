@@ -57,7 +57,7 @@
   </UnitAI>
   <UnitMotion>
     <PassabilityClass>large</PassabilityClass>
-    <WalkSpeed op="mul">0.55</WalkSpeed>
+    <WalkSpeed op="mul">0.5</WalkSpeed>
   </UnitMotion>
   <VisualActor>
     <Actor>units/global/catafalque.xml</Actor>

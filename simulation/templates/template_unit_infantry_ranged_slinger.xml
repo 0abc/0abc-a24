@@ -33,10 +33,6 @@
     <VisibleClasses datatype="tokens">Slinger</VisibleClasses>
     <GenericName>Slinger</GenericName>
   </Identity>
-  <Loot>
-    <stone>3</stone>
-    <wood>2</wood>
-  </Loot>
   <Resistance>
     <Entity>
       <Damage>

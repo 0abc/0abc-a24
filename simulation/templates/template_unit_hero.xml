@@ -71,7 +71,4 @@
     <Category>Hero</Category>
     <MatchLimit>1</MatchLimit>
   </TrainingRestrictions>
-  <Vision>
-    <Range>100</Range>
-  </Vision>
 </Entity>

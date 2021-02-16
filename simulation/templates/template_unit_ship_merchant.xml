@@ -21,10 +21,6 @@
     <VisibleClasses datatype="tokens">Trader Bribable</VisibleClasses>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
-  <Loot>
-    <xp>25</xp>
-    <wood>15</wood>
-  </Loot>
   <Resistance>
     <Entity>
       <Damage>

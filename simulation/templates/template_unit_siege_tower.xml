@@ -64,8 +64,6 @@
   </Identity>
   <Loot>
     <xp>250</xp>
-    <wood>100</wood>
-    <metal>60</metal>
   </Loot>
   <Selectable>
     <Overlay>
