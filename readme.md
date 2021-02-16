@@ -51,6 +51,8 @@
   * elephants: 90
   * artillery: 100
 * Unit base movement speed is slightly lowered.
+* Houses no longer have technologies nor can train female workers.
+* Barracks trains advanced infantry by default and is postponed to the town phase.
 
 [(return to table of contents)](https://github.com/0abc/0abc-a24#table-of-contents)
 
