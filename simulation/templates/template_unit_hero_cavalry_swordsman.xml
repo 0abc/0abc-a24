@@ -16,14 +16,6 @@
     <GenericName>Hero Cavalry Swordsman</GenericName>
     <VisibleClasses datatype="tokens">Melee Swordsman</VisibleClasses>
   </Identity>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Hack op="add">1</Hack>
-        <Pierce op="add">1</Pierce>
-      </Damage>
-    </Entity>
-  </Resistance>
   <Sound>
     <SoundGroups>
       <attack_melee>attack/weapon/sword_attack.xml</attack_melee>

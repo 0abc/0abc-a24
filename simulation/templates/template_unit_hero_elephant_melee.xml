@@ -6,48 +6,25 @@
       <AttackName>Trunk</AttackName>
       <Damage>
         <Hack>60</Hack>
-        <Pierce>0</Pierce>
         <Crush>240</Crush>
       </Damage>
-      <MaxRange>5.0</MaxRange>
+      <MaxRange>5</MaxRange>
       <PrepareTime>750</PrepareTime>
       <RepeatTime>1500</RepeatTime>
      <PreferredClasses datatype="tokens">!Ship</PreferredClasses>
     </Melee>
   </Attack>
-  <Cost>
-    <Resources>
-      <food>600</food>
-      <metal>400</metal>
-    </Resources>
-  </Cost>
   <Footprint replace="">
     <Square width="4.5" depth="9.0"/>
     <Height>9.0</Height>
   </Footprint>
-  <Health>
-    <Max>1500</Max>
-  </Health>
   <Identity>
     <GenericName>Hero Elephant</GenericName>
     <VisibleClasses datatype="tokens">Elephant Melee</VisibleClasses>
   </Identity>
-  <Loot>
-    <food>60</food>
-    <metal>40</metal>
-  </Loot>
   <Position>
     <TurnRate>3</TurnRate>
   </Position>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Hack>10</Hack>
-        <Pierce>10</Pierce>
-        <Crush>25</Crush>
-      </Damage>
-    </Entity>
-  </Resistance>
   <Selectable>
     <Overlay>
       <Shape>

@@ -17,13 +17,6 @@
     <GenericName>Hero Cavalry Axeman</GenericName>
     <VisibleClasses datatype="tokens">Melee Axeman</VisibleClasses>
   </Identity>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Pierce op="add">1</Pierce>
-      </Damage>
-    </Entity>
-  </Resistance>
   <Sound>
     <SoundGroups>
       <attack_melee>attack/weapon/sword_attack.xml</attack_melee>

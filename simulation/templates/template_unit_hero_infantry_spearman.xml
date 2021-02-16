@@ -6,11 +6,10 @@
       <Damage>
         <Hack>12</Hack>
         <Pierce>10</Pierce>
-        <Crush>0</Crush>
       </Damage>
       <MaxRange>4</MaxRange>
-      <PrepareTime>450</PrepareTime>
-      <RepeatTime>900</RepeatTime>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
       <Bonuses>
         <BonusCavMelee>
           <Classes>Cavalry</Classes>
@@ -24,18 +23,7 @@
     <GenericName>Hero Spearman</GenericName>
     <Tooltip>Counters: 3× vs Cavalry.</Tooltip>
     <VisibleClasses datatype="tokens">Melee Spearman</VisibleClasses>
-    <Formations datatype="tokens">
-      special/formations/testudo
-    </Formations>
   </Identity>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Hack op="add">4</Hack>
-        <Pierce op="add">4</Pierce>
-      </Damage>
-    </Entity>
-  </Resistance>
   <Sound>
     <SoundGroups>
       <attack_melee>attack/weapon/spear_attack.xml</attack_melee>

@@ -4,8 +4,6 @@
     <Melee>
       <AttackName>Mace</AttackName>
       <Damage>
-        <Hack>0</Hack>
-        <Pierce>0</Pierce>
         <Crush>28</Crush>
       </Damage>
       <MaxRange>3</MaxRange>
@@ -18,14 +16,6 @@
     <GenericName>Hero Infantry Maceman</GenericName>
     <VisibleClasses datatype="tokens">Melee Maceman</VisibleClasses>
   </Identity>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Hack op="add">2</Hack>
-        <Pierce op="add">2</Pierce>
-      </Damage>
-    </Entity>
-  </Resistance>
   <Sound>
     <SoundGroups>
       <attack_melee>attack/weapon/sword_attack.xml</attack_melee>

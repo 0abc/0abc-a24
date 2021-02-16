@@ -6,6 +6,7 @@
 ## Table of contents
 * [Instructions](https://github.com/0abc/0abc-a24#instructions)
 * [Overview](https://github.com/0abc/0abc-a24#overview)
+* [Overview](https://github.com/0abc/0abc-a24#new-unit-costs)
 
 
 
@@ -40,12 +41,15 @@
 * Unit base movement speed is slightly lowered.
 * Animals are no longer visible in fog.
 * Corrals are deprecated.
-* Advanced soldiers cost +20 metal, elite another +20 metal
-* Cavalry: 
-  * can no longer gather meat;
-  * basic cost 100 food, 40 metal and champion cost 150 food, 100 metal;
-  * require 2 population each;
-  * lowered melee attack range;
-  * lowered vision range.
+* Cavalry can no longer gather meat.
+
+[(return to table of contents)](https://github.com/0abc/0abc-a24#table-of-contents)
+
+
+### New unit costs
+* Advanced soldiers cost +20 metal, elite another +20 metal.
+* Basic cavalry cost 100 food, 40 metal, 2 population, 16 s.
+* Champion cavalry cost 150 food, 100 metal, 2 population, 27 s.
+* All heroes cost 500 silver, 0 population, 60 s.
 
 [(return to table of contents)](https://github.com/0abc/0abc-a24#table-of-contents)

@@ -17,14 +17,6 @@
     <GenericName>Hero Cavalry Spearman</GenericName>
     <VisibleClasses datatype="tokens">Melee Spearman</VisibleClasses>
   </Identity>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Hack op="add">1</Hack>
-        <Pierce op="add">2</Pierce>
-      </Damage>
-    </Entity>
-  </Resistance>
   <Sound>
     <SoundGroups>
       <attack_melee>attack/weapon/spear_attack.xml</attack_melee>
