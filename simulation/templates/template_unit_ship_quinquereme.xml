@@ -4,8 +4,6 @@
     <Ranged>
       <AttackName>Stone</AttackName>
       <Damage>
-        <Hack>0</Hack>
-        <Pierce>0</Pierce>
         <Crush>150</Crush>
       </Damage>
       <MaxRange>80</MaxRange>
@@ -14,9 +12,9 @@
       <RepeatTime>5000</RepeatTime>
       <Delay>0</Delay>
       <Projectile>
-        <Speed>40.0</Speed>
-        <Spread>6.0</Spread>
-        <Gravity>20.0</Gravity>
+        <Speed>40</Speed>
+        <Spread>6</Spread>
+        <Gravity>20</Gravity>
         <FriendlyFire>false</FriendlyFire>
         <LaunchPoint y="3"/>
       </Projectile>
@@ -30,12 +28,11 @@
     <GarrisonArrowClasses>StoneThrower</GarrisonArrowClasses>
   </BuildingAI>
   <Cost>
-    <Population>3</Population>
     <BuildTime>30</BuildTime>
+    <Population>5</Population>
     <Resources>
-      <wood>350</wood>
-      <metal>200</metal>
-      <stone>350</stone>
+      <wood>500</wood>
+      <metal>250</metal>
     </Resources>
   </Cost>
   <GarrisonHolder>

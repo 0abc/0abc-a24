@@ -36,13 +36,6 @@
     </SoundGroups>
   </Sound>
   <Trader>
-    <GainMultiplier>0.75</GainMultiplier>
+    <GainMultiplier>0.6</GainMultiplier>
   </Trader>
-  <UnitAI>
-    <CanGuard>false</CanGuard>
-    <CanPatrol>false</CanPatrol>
-  </UnitAI>
-  <Vision>
-    <Range>60</Range>
-  </Vision>
 </Entity>

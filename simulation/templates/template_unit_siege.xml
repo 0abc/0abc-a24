@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit">
-  <Cost>
-    <Population>3</Population>
-  </Cost>
   <Decay>
     <DelayTime>0.0</DelayTime>
     <SinkRate>0.0</SinkRate>

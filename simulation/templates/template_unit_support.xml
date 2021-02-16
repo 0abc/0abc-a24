@@ -23,8 +23,13 @@
     </SoundGroups>
   </Sound>
   <UnitAI>
+    <CanGuard>false</CanGuard>
+    <CanPatrol>false</CanPatrol>
     <DefaultStance>passive</DefaultStance>
   </UnitAI>
+  <Vision>
+    <Range>60</Range>
+  </Vision>
   <VisionSharing>
     <Bribable>true</Bribable>
   </VisionSharing>

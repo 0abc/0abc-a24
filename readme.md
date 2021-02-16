@@ -45,6 +45,7 @@
 * Cavalry can no longer gather meat.
 * Lowered unit vision ranges:
   * rams: 50
+  * support units: 60
   * infantry: 70
   * cavalry: 80
   * elephants: 90
@@ -56,6 +57,13 @@
 
 ### New unit costs
 ```
+                   food, metal, silver; population; time
+female workers:        50 ,     ,     ; 1 ;  9 s
+slaves:                   ,     ,  50 ; 0 ; 15 s
+healers:               50 ,     , 100 ; 1 ; 30 s
+traders:              100 ,  80 ,     ; 1 ; 15 s
+all heroes:               ,     , 500 ; 0 ; 60 s
+
                    food, metal, silver; population; time
 mercenary infantry:       ,     ,  60 ; 1 ;  8.4 s
 basic infantry:        50 ,  30 ,     ; 1 ; 12 s
@@ -77,8 +85,19 @@ advanced elephants:   200 , 100 ,     ; 5 ; 24 s
 elite elephants:      200 , 120 ,     ; 5 ; 28.8 s
 champion elephants:   300 , 200 ,     ; 5 ; 36 s
 
-                   food, metal, silver; population; time
-all heroes:               ,     , 500 ; 0 ; 60 s
+                   wood, metal, silver; population; time
+rams:                 300 , 100 ,     ; 4 ; 30 s
+bolt-shooters:        200 , 200 ,     ; 3 ; 30 s
+stone-throwers:       250 , 250 ,     ; 3 ; 30 s
+siege towers:         500 , 300 ,     ; 5 ; 30 s
+
+                   wood, metal, silver; population; time
+fishing boats:        120 ,     ,     ; 1 ; 15 s
+merchant ships:       150 , 100 ,     ; 1 ; 20 s
+fireships:            300 ,     ,     ; 1 ; 30 s
+biremes:              120 ,  60 ,     ; 2 ; 20 s
+triremes:             200 , 100 ,     ; 3 ; 25 s
+quinqueremes:         500 , 250 ,     ; 5 ; 30 s
 ```
 
 [(return to table of contents)](https://github.com/0abc/0abc-a24#table-of-contents)

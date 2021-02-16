@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support">
   <Cost>
-    <BuildTime>15</BuildTime>
+    <BuildTime>30</BuildTime>
     <Resources>
-      <food>250</food>
+      <food>50</food>
+      <silver>100</silver>
     </Resources>
   </Cost>
   <Heal>
@@ -47,7 +48,4 @@
       <trained>interface/alarm/alarm_create_priest.xml</trained>
     </SoundGroups>
   </Sound>
-  <Vision>
-    <Range>30</Range>
-  </Vision>
 </Entity>
