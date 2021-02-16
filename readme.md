@@ -55,22 +55,29 @@
 
 ### New unit costs
 ```
-                 food, metal, silver; population; time
-mercenary infantry:     ,     ,  60 ; 1 ;  8.4 s
-basic infantry:      50 ,  30 ,     ; 1 ; 12 s
-advanced infantry:   50 ,  50 ,     ; 1 ; 14.4 s
-elite infantry:      50 ,  70 ,     ; 1 ; 17.28 s
-champion infantry:   80 , 100 ,     ; 1 ; 20 s
+                   food, metal, silver; population; time
+mercenary infantry:       ,     ,  60 ; 1 ;  8.4 s
+basic infantry:        50 ,  30 ,     ; 1 ; 12 s
+advanced infantry:     50 ,  50 ,     ; 1 ; 14.4 s
+elite infantry:        50 ,  70 ,     ; 1 ; 17.28 s
+champion infantry:     80 , 100 ,     ; 1 ; 20 s
 
-                  food, metal, silver; population; time
-mercenary cavalry:      ,     ,  90 ; 2 ; 11.2 s
-basic cavalry:      100 ,  40 ,     ; 2 ; 16 s
-advanced cavalry:   100 ,  60 ,     ; 2 ; 19.2 s
-elite cavalry:      100 ,  80 ,     ; 2 ; 23.04 s
-champion cavalry:   150 , 100 ,     ; 2 ; 27 s
+                   food, metal, silver; population; time
+mercenary cavalry:        ,     ,  90 ; 2 ; 11.2 s
+basic cavalry:        100 ,  40 ,     ; 2 ; 16 s
+advanced cavalry:     100 ,  60 ,     ; 2 ; 19.2 s
+elite cavalry:        100 ,  80 ,     ; 2 ; 23.04 s
+champion cavalry:     150 , 100 ,     ; 2 ; 27 s
 
-                  food, metal, silver; population; time
-all heroes:             ,     , 500 ; 0 ; 60 s
+                   food, metal, silver; population; time
+mercenary elephants:      ,     , 120 ; 5 ; 14 s
+basic elephants:      200 ,  80 ,     ; 5 ; 20 s
+advanced elephants:   200 , 100 ,     ; 5 ; 24 s
+elite elephants:      200 , 120 ,     ; 5 ; 28.8 s
+champion elephants:   300 , 200 ,     ; 5 ; 36 s
+
+                   food, metal, silver; population; time
+all heroes:               ,     , 500 ; 0 ; 60 s
 ```
 
 [(return to table of contents)](https://github.com/0abc/0abc-a24#table-of-contents)

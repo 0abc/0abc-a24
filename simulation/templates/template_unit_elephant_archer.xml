@@ -4,7 +4,7 @@
     <Ranged>
       <AttackName>Bow</AttackName>
       <Damage>
-        <Pierce>14</Pierce>
+        <Pierce>7</Pierce>
       </Damage>
       <MaxRange>60</MaxRange>
       <MinRange>0</MinRange>
@@ -21,15 +21,8 @@
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
     </Ranged>
   </Attack>
-  <Cost>
-    <BuildTime>20</BuildTime>
-    <Resources>
-      <food>175</food>
-      <wood>75</wood>
-    </Resources>
-  </Cost>
   <Health>
-    <Max>200</Max>
+    <Max>400</Max>
   </Health>
   <Identity>
     <GenericName>Elephant Archer</GenericName>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_champion">
   <Cost>
-    <Population>3</Population>
     <BuildTime>36</BuildTime>
+    <Population>5</Population>
     <Resources>
       <food>300</food>
       <metal>200</metal>
@@ -13,14 +13,14 @@
     <Height>9.0</Height>
   </Footprint>
   <Health>
-    <Max>750</Max>
+    <Max>800</Max>
   </Health>
   <Identity>
     <GenericName>War Elephant</GenericName>
     <VisibleClasses datatype="tokens">Elephant</VisibleClasses>
   </Identity>
   <Loot>
-    <xp>300</xp>
+    <xp>800</xp>
   </Loot>
   <Position>
     <TurnRate>3</TurnRate>
