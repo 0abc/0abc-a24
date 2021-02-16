@@ -28,6 +28,7 @@
 
 ## Overview
 * Attack damage is randomized, between 50% and 150% of the displayed value, to add a bit more unpredictability to the game.
+* A new damage type, thrust, for spear- and pikemen.
 * A new resource, silver:
   * Silver can't be gathered directly by workers.
   * Traders can only gain silver, no other resources.
@@ -60,7 +61,7 @@ mercenary infantry:       ,     ,  60 ; 1 ;  8.4 s
 basic infantry:        50 ,  30 ,     ; 1 ; 12 s
 advanced infantry:     50 ,  50 ,     ; 1 ; 14.4 s
 elite infantry:        50 ,  70 ,     ; 1 ; 17.28 s
-champion infantry:     80 , 100 ,     ; 1 ; 20 s
+champion infantry:     90 ,  90 ,     ; 1 ; 20 s
 
                    food, metal, silver; population; time
 mercenary cavalry:        ,     ,  90 ; 2 ; 11.2 s

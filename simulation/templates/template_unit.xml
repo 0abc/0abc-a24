@@ -78,9 +78,10 @@
   <Resistance>
     <Entity>
       <Damage>
+        <Crush>1</Crush>
         <Hack>1</Hack>
         <Pierce>1</Pierce>
-        <Crush>1</Crush>
+        <Thrust>1</Thrust>
       </Damage>
     </Entity>
   </Resistance>

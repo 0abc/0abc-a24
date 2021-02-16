@@ -1,0 +1,6 @@
+{
+	"code": "Crush",
+	"name": "Crush",
+	"description": "Damage caused by blunt objects, such as maces.",
+	"order": 1
+}

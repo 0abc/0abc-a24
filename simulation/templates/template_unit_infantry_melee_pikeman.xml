@@ -4,8 +4,7 @@
     <Melee>
       <AttackName>Pike</AttackName>
       <Damage>
-        <Hack>2</Hack>
-        <Pierce>3</Pierce>
+        <Thrust>5</Thrust>
       </Damage>
       <MaxRange>8</MaxRange>
       <PrepareTime>1000</PrepareTime>
@@ -30,8 +29,10 @@
   <Resistance>
     <Entity>
       <Damage>
+        <Crush>10</Crush>
         <Hack>10</Hack>
         <Pierce>10</Pierce>
+        <Thrust>10</Thrust>
       </Damage>
     </Entity>
   </Resistance>

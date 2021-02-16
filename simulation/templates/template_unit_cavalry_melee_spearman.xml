@@ -4,8 +4,7 @@
     <Melee>
       <AttackName>Spear</AttackName>
       <Damage>
-        <Hack>4</Hack>
-        <Pierce>4</Pierce>
+        <Thrust>8</Thrust>
       </Damage>
       <MaxRange>4</MaxRange>
       <PrepareTime>500</PrepareTime>
@@ -20,8 +19,10 @@
   <Resistance>
     <Entity>
       <Damage>
-        <Hack>4</Hack>
+        <Crush>3</Crush>
+        <Hack>3</Hack>
         <Pierce>3</Pierce>
+        <Thrust>3</Thrust>
       </Damage>
     </Entity>
   </Resistance>

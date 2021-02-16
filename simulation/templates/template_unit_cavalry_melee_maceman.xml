@@ -18,8 +18,10 @@
   <Resistance>
     <Entity>
       <Damage>
-        <Hack>4</Hack>
-        <Pierce>2</Pierce>
+        <Crush>3</Crush>
+        <Hack>3</Hack>
+        <Pierce>3</Pierce>
+        <Thrust>3</Thrust>
       </Damage>
     </Entity>
   </Resistance>

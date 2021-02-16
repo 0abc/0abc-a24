@@ -3,9 +3,8 @@
   <Cost>
     <BuildTime>20</BuildTime>
     <Resources>
-      <food>80</food>
-      <wood>60</wood>
-      <metal>80</metal>
+      <food>90</food>
+      <metal>90</metal>
     </Resources>
   </Cost>
   <Health>
@@ -21,15 +20,6 @@
   <Position>
     <Anchor>upright</Anchor>
   </Position>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Hack>5</Hack>
-        <Pierce>5</Pierce>
-        <Crush>20</Crush>
-      </Damage>
-    </Entity>
-  </Resistance>
   <Selectable>
     <Overlay>
       <Texture>

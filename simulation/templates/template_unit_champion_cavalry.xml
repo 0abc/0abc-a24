@@ -30,15 +30,6 @@
   <Position>
     <TurnRate>5</TurnRate>
   </Position>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Hack>7</Hack>
-        <Pierce>5</Pierce>
-        <Crush>20</Crush>
-      </Damage>
-    </Entity>
-  </Resistance>
   <Sound>
     <SoundGroups>
       <walk>actor/mounted/movement/walk.xml</walk>

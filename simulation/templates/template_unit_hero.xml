@@ -42,6 +42,7 @@
         <Fire>10</Fire>
         <Hack>10</Hack>
         <Pierce>10</Pierce>
+        <Thrust>10</Thrust>
       </Damage>
     </Entity>
   </Resistance>
