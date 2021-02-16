@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_hero">
   <Identity>
+    <GenericName>Hero Infantry</GenericName>
     <VisibleClasses datatype="tokens">Infantry</VisibleClasses>
-    <GenericName>Hero</GenericName>
   </Identity>
   <Position>
     <Anchor>upright</Anchor>

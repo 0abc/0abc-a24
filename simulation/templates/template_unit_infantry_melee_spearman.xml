@@ -1,34 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee">
+<Entity parent="template_unit_infantry">
   <Attack>
     <Melee>
       <AttackName>Spear</AttackName>
       <Damage>
-        <Hack>3</Hack>
-        <Pierce>2.5</Pierce>
-        <Crush>0</Crush>
+        <Hack>4</Hack>
+        <Pierce>4</Pierce>
       </Damage>
       <MaxRange>4</MaxRange>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>
-      <Bonuses>
-        <BonusCavMelee>
-          <Classes>Cavalry</Classes>
-          <Multiplier>3.0</Multiplier>
-        </BonusCavMelee>
-      </Bonuses>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
     </Melee>
   </Attack>
-  <Cost>
-    <Resources>
-      <wood>50</wood>
-    </Resources>
-  </Cost>
   <Identity>
-    <GenericName>Spearman</GenericName>
-    <Tooltip>Counters: 3× vs Cavalry.</Tooltip>
-    <VisibleClasses datatype="tokens">Spearman</VisibleClasses>
+    <GenericName>Infantry Spearman</GenericName>
+    <VisibleClasses datatype="tokens">Melee Spearman</VisibleClasses>
+    <Formations datatype="tokens">
+      special/formations/phalanx
+    </Formations>
   </Identity>
   <Resistance>
     <Entity>

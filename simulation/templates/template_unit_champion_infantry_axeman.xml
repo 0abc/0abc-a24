@@ -4,8 +4,8 @@
     <Melee>
       <AttackName>Axe</AttackName>
       <Damage>
-        <Hack>12</Hack>
         <Crush>4</Crush>
+        <Hack>12</Hack>
       </Damage>
       <MaxRange>3</MaxRange>
       <PrepareTime>500</PrepareTime>
@@ -17,8 +17,8 @@
     <Max>200</Max>
   </Health>
   <Identity>
+    <GenericName>Champion Infantry Axeman</GenericName>
     <VisibleClasses datatype="tokens">Melee Axeman</VisibleClasses>
-    <GenericName>Champion Axeman</GenericName>
   </Identity>
   <Resistance>
     <Entity>

@@ -4,8 +4,8 @@
     <Melee>
       <AttackName>Axe</AttackName>
       <Damage>
-        <Hack>24</Hack>
         <Crush>8</Crush>
+        <Hack>24</Hack>
       </Damage>
       <MaxRange>3</MaxRange>
       <PrepareTime>500</PrepareTime>
@@ -14,8 +14,8 @@
     </Melee>
   </Attack>
   <Identity>
-    <VisibleClasses datatype="tokens">Melee Axeman</VisibleClasses>
     <GenericName>Hero Axeman</GenericName>
+    <VisibleClasses datatype="tokens">Melee Axeman</VisibleClasses>
   </Identity>
   <Sound>
     <SoundGroups>

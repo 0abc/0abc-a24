@@ -4,11 +4,11 @@
     <Melee>
       <AttackName context="Name of an attack using a double-edged sword.">Sword</AttackName>
       <Damage>
-        <Hack>11</Hack>
+        <Hack>12</Hack>
       </Damage>
       <MaxRange>3</MaxRange>
-      <PrepareTime>375</PrepareTime>
-      <RepeatTime>750</RepeatTime>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
       <PreferredClasses datatype="tokens">Unit+!Ship</PreferredClasses>
     </Melee>
   </Attack>
@@ -16,8 +16,8 @@
     <Max>200</Max>
   </Health>
   <Identity>
+    <GenericName>Champion Infantry Swordsman</GenericName>
     <VisibleClasses datatype="tokens">Melee Swordsman</VisibleClasses>
-    <GenericName>Champion Swordsman</GenericName>
     <Formations datatype="tokens">
       special/formations/testudo
     </Formations>

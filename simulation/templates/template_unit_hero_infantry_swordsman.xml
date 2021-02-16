@@ -4,7 +4,7 @@
     <Melee>
       <AttackName context="Name of an attack using a double-edged sword.">Sword</AttackName>
       <Damage>
-        <Hack>22</Hack>
+        <Hack>24</Hack>
       </Damage>
       <MaxRange>3</MaxRange>
       <PrepareTime>500</PrepareTime>
@@ -13,8 +13,11 @@
     </Melee>
   </Attack>
   <Identity>
+    <GenericName>Hero Infantry Swordsman</GenericName>
     <VisibleClasses datatype="tokens">Melee Swordsman</VisibleClasses>
-    <GenericName>Hero Swordsman</GenericName>
+    <Formations datatype="tokens">
+      special/formations/testudo
+    </Formations>
   </Identity>
   <Sound>
     <SoundGroups>

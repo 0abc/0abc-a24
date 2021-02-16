@@ -39,18 +39,38 @@
 * Some civilization bonuses have been removed or replaced.
 * Team bonuses have been deprecated.
 * Units no longer give resource loot.
-* Unit base movement speed is slightly lowered.
 * Animals are no longer visible in fog.
 * Corrals are deprecated.
 * Cavalry can no longer gather meat.
+* Lowered unit vision ranges:
+  * rams: 50
+  * infantry: 70
+  * cavalry: 80
+  * elephants: 90
+  * artillery: 100
+* Unit base movement speed is slightly lowered.
 
 [(return to table of contents)](https://github.com/0abc/0abc-a24#table-of-contents)
 
 
 ### New unit costs
-* Advanced soldiers cost +20 metal, elite another +20 metal.
-* Basic cavalry cost 100 food, 40 metal, 2 population, 16 s.
-* Champion cavalry cost 150 food, 100 metal, 2 population, 27 s.
-* All heroes cost 500 silver, 0 population, 60 s.
+```
+                 food, metal, silver; population; time
+mercenary infantry:     ,     ,  60 ; 1 ;  8.4 s
+basic infantry:      50 ,  30 ,     ; 1 ; 12 s
+advanced infantry:   50 ,  50 ,     ; 1 ; 14.4 s
+elite infantry:      50 ,  70 ,     ; 1 ; 17.28 s
+champion infantry:   80 , 100 ,     ; 1 ; 20 s
+
+                  food, metal, silver; population; time
+mercenary cavalry:      ,     ,  90 ; 2 ; 11.2 s
+basic cavalry:      100 ,  40 ,     ; 2 ; 16 s
+advanced cavalry:   100 ,  60 ,     ; 2 ; 19.2 s
+elite cavalry:      100 ,  80 ,     ; 2 ; 23.04 s
+champion cavalry:   150 , 100 ,     ; 2 ; 27 s
+
+                  food, metal, silver; population; time
+all heroes:             ,     , 500 ; 0 ; 60 s
+```
 
 [(return to table of contents)](https://github.com/0abc/0abc-a24#table-of-contents)

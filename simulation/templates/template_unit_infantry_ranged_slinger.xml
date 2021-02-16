@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged">
+<Entity parent="template_unit_infantry">
   <Attack>
     <Ranged>
       <AttackName>Sling</AttackName>
       <Damage>
-        <Hack>0</Hack>
-        <Pierce>11.5</Pierce>
-        <Crush>1.1</Crush>
+        <Pierce>10</Pierce>
+        <Crush>2</Crush>
       </Damage>
       <MaxRange>45</MaxRange>
       <MinRange>0</MinRange>
@@ -14,30 +13,31 @@
       <RepeatTime>1250</RepeatTime>
       <Delay>0</Delay>
       <Projectile>
-        <Speed>90.0</Speed>
-        <Spread>3.0</Spread>
-        <Gravity>45.0</Gravity>
+        <Speed>90</Speed>
+        <Spread>3</Spread>
+        <Gravity>45</Gravity>
         <FriendlyFire>false</FriendlyFire>
         <LaunchPoint y="3"/>
       </Projectile>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
     </Ranged>
   </Attack>
-  <Cost>
-    <Resources>
-      <stone>30</stone>
-      <wood>20</wood>
-    </Resources>
-  </Cost>
+  <Health>
+    <Max>50</Max>
+  </Health>
   <Identity>
-    <VisibleClasses datatype="tokens">Slinger</VisibleClasses>
-    <GenericName>Slinger</GenericName>
+    <GenericName>Infantry Slinger</GenericName>
+    <VisibleClasses datatype="tokens">Ranged Slinger</VisibleClasses>
+    <Formations datatype="tokens">
+      special/formations/skirmish
+    </Formations>
   </Identity>
   <Resistance>
     <Entity>
       <Damage>
         <Hack>1</Hack>
         <Pierce>1</Pierce>
+        <Crush>10</Crush>
       </Damage>
     </Entity>
   </Resistance>

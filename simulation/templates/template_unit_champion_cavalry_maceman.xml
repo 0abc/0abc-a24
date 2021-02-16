@@ -9,7 +9,6 @@
       <MaxRange>4</MaxRange>
       <PrepareTime>500</PrepareTime>
       <RepeatTime>1000</RepeatTime>
-      <PreferredClasses datatype="tokens">!Ship</PreferredClasses>
     </Melee>
   </Attack>
   <Identity>

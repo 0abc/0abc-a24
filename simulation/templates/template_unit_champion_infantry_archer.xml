@@ -4,7 +4,7 @@
     <Ranged>
       <AttackName>Bow</AttackName>
       <Damage>
-        <Pierce>13.5</Pierce>
+        <Pierce>10</Pierce>
       </Damage>
       <MaxRange>60</MaxRange>
       <MinRange>0</MinRange>
@@ -25,8 +25,8 @@
     <Max>120</Max>
   </Health>
   <Identity>
+    <GenericName>Champion Infantry Archer</GenericName>
     <VisibleClasses datatype="tokens">Ranged Archer</VisibleClasses>
-    <GenericName>Champion Archer</GenericName>
     <Formations datatype="tokens">
       special/formations/skirmish
     </Formations>

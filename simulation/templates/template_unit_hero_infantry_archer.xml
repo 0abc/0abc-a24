@@ -4,7 +4,7 @@
     <Ranged>
       <AttackName>Bow</AttackName>
       <Damage>
-        <Pierce>27</Pierce>
+        <Pierce>14</Pierce>
       </Damage>
       <MaxRange>60</MaxRange>
       <MinRange>0</MinRange>
@@ -22,8 +22,8 @@
     </Ranged>
   </Attack>
   <Identity>
-    <VisibleClasses datatype="tokens">Ranged Archer</VisibleClasses>
     <GenericName>Hero Archer</GenericName>
+    <VisibleClasses datatype="tokens">Ranged Archer</VisibleClasses>
     <Formations datatype="tokens">
       special/formations/skirmish
     </Formations>
