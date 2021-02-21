@@ -32,9 +32,6 @@
       units/{civ}/ship_bireme
       units/{civ}/ship_trireme
     </Entities>
-    <Technologies datatype="tokens">
-      -hellenistic_metropolis
-    </Technologies>
   </ProductionQueue>
   <RallyPointRenderer>
     <LinePassabilityClass>ship</LinePassabilityClass>

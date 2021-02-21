@@ -1,0 +1,12 @@
+{
+	"genericName": "Long Tradition",
+	"autoResearch": true,
+	"description": "The kingdom of Kush lasted for nearly fifteen centuries and while the capital was moved from Napata to Kerma around 300 BC, ties with the past were cultivated and monuments diligently maintained throughout its history.",
+	"icon": "high_priest.png",
+	"tooltip": "Civic Structures −50% territory decay rate.",
+	"requirements": { "civ": "kush" },
+	"modifications": [
+		{ "value": "TerritoryDecay/DecayRate", "multiply": 0.5 }
+	],
+	"affects": ["Civic !Wonder"]
+}

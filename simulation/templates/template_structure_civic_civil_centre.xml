@@ -33,7 +33,7 @@
     </Ranged>
   </Attack>
   <BuildingAI>
-    <DefaultArrowCount>3</DefaultArrowCount>
+    <DefaultArrowCount>0</DefaultArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
     <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>
   </BuildingAI>
@@ -102,15 +102,14 @@
     <Technologies datatype="tokens">
       phase_town_{civ}
       phase_city_{civ}
+      civic_center_guard_01
+      civic_center_guard_02
+      civic_center_guard_03
       unlock_shared_los
       unlock_shared_dropsites
       unlock_spies
       spy_counter
       archery_tradition
-      architecture_kush
-      architecture_pers
-      colonization
-      hellenistic_metropolis
     </Technologies>
   </ProductionQueue>
   <Resistance>

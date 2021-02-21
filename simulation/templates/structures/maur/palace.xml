@@ -4,61 +4,51 @@
     <Category>Palace</Category>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>300</BuildTime>
+    <BuildTime>200</BuildTime>
     <Resources>
-      <stone>300</stone>
+      <stone>200</stone>
       <metal>200</metal>
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="32.0" depth="32.0"/>
-    <Height>8.0</Height>
+    <Square width="40.0" depth="16.0"/>
+    <Height>5.0</Height>
   </Footprint>
-  <GarrisonHolder>
-    <Max>10</Max>
-  </GarrisonHolder>
   <Health>
-    <Max>3000</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
+    <Max>2000</Max>
   </Health>
   <Identity>
-    <Civ>pers</Civ>
-    <GenericName>Throne Hall</GenericName>
-    <SpecificName>Apadāna</SpecificName>
-    <Tooltip>Train Champions and Heroes.</Tooltip>
+    <Civ>maur</Civ>
+    <GenericName>Palace</GenericName>
+    <SpecificName>Harmya</SpecificName>
+    <Tooltip>Territory root. Train Maiden Guards and Heroes.</Tooltip>
     <Classes datatype="tokens">ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Palace</VisibleClasses>
-    <Icon>structures/palace.png</Icon>
+    <Icon>gaia/special_stoa.png</Icon>
   </Identity>
   <Loot>
-    <stone>60</stone>
+    <stone>40</stone>
     <metal>40</metal>
   </Loot>
   <Obstruction>
-    <Static width="30.0" depth="30.0"/>
+    <Static width="36.0" depth="12.0"/>
   </Obstruction>
   <ProductionQueue>
-    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}/champion_infantry
-      units/{civ}/hero_cyrus_ii
-      units/{civ}/hero_darius_i
-      units/{civ}/hero_xerxes_i
+      units/{civ}/champion_maiden
+      units/{civ}/champion_maiden_archer
+      units/{civ}/hero_chanakya
+      units/{civ}/hero_chandragupta
+      units/{civ}/hero_ashoka
     </Entities>
     <Technologies datatype="tokens">
-      immortals
       unlock_shared_los
       unlock_shared_dropsites
       unlock_spies
       spy_counter
     </Technologies>
   </ProductionQueue>
-  <ResourceTrickle>
-    <Rates>
-      <silver>1</silver>
-    </Rates>
-    <Interval>1000</Interval>
-  </ResourceTrickle>
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_broch.xml</select>
@@ -74,7 +64,7 @@
     <Range>40</Range>
   </Vision>
   <VisualActor>
-    <Actor>structures/persians/apadana.xml</Actor>
-    <FoundationActor>structures/fndn_8x9.xml</FoundationActor>
+    <Actor>structures/mauryas/misc_structure_01.xml</Actor>
+    <FoundationActor>structures/fndn_9x4.xml</FoundationActor>
   </VisualActor>
 </Entity>

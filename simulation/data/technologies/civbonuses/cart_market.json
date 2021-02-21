@@ -1,0 +1,17 @@
+{
+	"genericName": "Mercantile Community",
+	"autoResearch": true,
+	"description": "Phoenicians and Carthaginians were very active traders and their cities centers of commerce and industry. They often pooled their resources together to be more effective and share in the benefits.",
+	"icon": "coinage.png",
+	"tooltip": "Market technologies −30% resource costs and research time.",
+	"requirements": { "civ": "cart" },
+	"modifications": [
+		{ "value": "ProductionQueue/TechCostMultiplier/food", "multiply": 0.7 },
+		{ "value": "ProductionQueue/TechCostMultiplier/wood", "multiply": 0.7 },
+		{ "value": "ProductionQueue/TechCostMultiplier/stone", "multiply": 0.7 },
+		{ "value": "ProductionQueue/TechCostMultiplier/metal", "multiply": 0.7 },
+		{ "value": "ProductionQueue/TechCostMultiplier/silver", "multiply": 0.7 },
+		{ "value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.7 }
+	],
+	"affects": ["Market"]
+}

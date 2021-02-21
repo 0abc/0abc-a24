@@ -1,0 +1,20 @@
+{
+	"genericName": "City Guard",
+	"description": "Larger settlements can afford more sentries.",
+	"cost": {
+		"food": 450,
+		"metal": 150
+	},
+	"supersedes": "civic_center_guard_02",
+	"requirements": { "tech": "phase_city" },
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "helmet_corinthian_gold_old.png",
+	"researchTime": 60,
+	"tooltip": "Civic Centers +1 default arrow count and +5 capture points regeneration rate.",
+	"modifications": [
+		{ "value": "BuildingAI/DefaultArrowCount", "add": 1 },
+		{ "value": "Capturable/RegenRate", "add": 5 }
+	],
+	"affects": ["CivilCentre"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
