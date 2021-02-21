@@ -96,8 +96,8 @@
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}/support_female_citizen
-      skirmish/units/default_infantry_melee_b
-      skirmish/units/default_infantry_ranged_b
+      units/{civ}/default_infantry_melee_b
+      units/{civ}/default_infantry_ranged_b
     </Entities>
     <Technologies datatype="tokens">
       phase_town_{civ}

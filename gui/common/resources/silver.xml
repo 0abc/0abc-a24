@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<setup>
+	<icon name="icon_silver"
+		sprite="stretched:session/icons/resources/silver.png"
+		size="16 16"
+	/>
+</setup>
