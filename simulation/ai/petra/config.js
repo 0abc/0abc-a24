@@ -23,10 +23,12 @@ PETRA.Config = function(difficulty, behavior)
 	};
 
 	this.DamageTypeImportance = {
-		"Hack": 0.085,
-		"Pierce": 0.075,
-		"Crush": 0.065,
-		"Fire": 0.095
+		"Crush": 0.1,
+		"Fire": 0.1,
+		"Hack": 0.1,
+		"Pierce": 0.1,
+		"Thrust": 0.1,
+		"Poison": 0.1
 	};
 
 	this.Economy = {
@@ -84,19 +86,16 @@ PETRA.Config = function(difficulty, behavior)
 			"structures/{civ}/theater"
 		],
 		"maur": [
-			"structures/{civ}/palace",
-			"structures/{civ}/pillar_ashoka"
+			"structures/{civ}/palace"
 		],
 		"pers": [
 			"structures/{civ}/apadana"
 		],
 		"ptol": [
-			"structures/{civ}/library",
 			"structures/{civ}/theater"
 		],
 		"rome": [
-			"structures/{civ}/army_camp",
-			"structures/{civ}/temple_vesta"
+			"structures/{civ}/army_camp"
 		],
 		"sele": [
 			"structures/{civ}/theater"
