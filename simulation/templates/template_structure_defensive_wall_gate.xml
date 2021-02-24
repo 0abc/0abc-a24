@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall">
   <!-- We need a Cost component, although gates cannot be built directly, as Cost/BuildTime is required to prevent instantaneous repair -->
-  <Auras datatype="tokens">
-    structures/wall_garrisoned
-  </Auras>
   <Cost>
-    <BuildTime>30</BuildTime>
+    <BuildTime>60</BuildTime>
     <Resources>
-      <wood>12</wood>
-      <stone>18</stone>
+      <wood>30</wood>
+      <stone>90</stone>
     </Resources>
   </Cost>
   <Gate>
     <PassRange>2</PassRange>
   </Gate>
   <Health>
-    <Max>3000</Max>
+    <Max>3750</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_wall_long</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -26,8 +23,8 @@
     <Icon>structures/gate.png</Icon>
   </Identity>
   <Loot>
-    <wood>2</wood>
-    <stone>4</stone>
+    <wood>6</wood>
+    <stone>18</stone>
   </Loot>
   <Obstruction>
     <Static disable=""/>

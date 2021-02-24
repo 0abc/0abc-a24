@@ -4,9 +4,9 @@
     <Territory>own neutral enemy</Territory>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>25</BuildTime>
+    <BuildTime>30</BuildTime>
     <Resources>
-      <wood>50</wood>
+      <wood>60</wood>
       <stone>0</stone>
     </Resources>
   </Cost>
@@ -18,7 +18,7 @@
     <Max>8</Max>
   </GarrisonHolder>
   <Health>
-    <Max op="mul">0.75</Max>
+    <Max op="mul">0.6</Max>
   </Health>
   <Identity>
     <Civ>rome</Civ>
@@ -28,7 +28,7 @@
     <Icon>structures/wooden_gate.png</Icon>
   </Identity>
   <Loot>
-    <wood>10</wood>
+    <wood>12</wood>
     <stone>0</stone>
   </Loot>
   <Obstruction>

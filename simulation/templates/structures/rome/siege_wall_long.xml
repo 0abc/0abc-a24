@@ -4,9 +4,9 @@
     <Territory>own neutral enemy</Territory>
   </BuildRestrictions>
   <Cost>
-    <BuildTime>30</BuildTime>
+    <BuildTime>36</BuildTime>
     <Resources>
-      <wood>60</wood>
+      <wood>72</wood>
       <stone>0</stone>
     </Resources>
   </Cost>
@@ -18,7 +18,7 @@
     <Max>7</Max>
   </GarrisonHolder>
   <Health>
-    <Max op="mul">0.75</Max>
+    <Max op="mul">0.6</Max>
   </Health>
   <Identity>
     <Civ>rome</Civ>
@@ -29,7 +29,7 @@
     <Icon>structures/siege_wall.png</Icon>
   </Identity>
   <Loot>
-    <wood>12</wood>
+    <wood>14</wood>
     <stone>0</stone>
   </Loot>
   <Obstruction>

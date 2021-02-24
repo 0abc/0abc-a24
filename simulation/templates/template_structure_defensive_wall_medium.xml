@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall">
-  <Auras datatype="tokens">
-    structures/wall_garrisoned
-  </Auras>
   <Cost>
-    <BuildTime>24</BuildTime>
+    <BuildTime>48</BuildTime>
     <Resources>
-      <stone>24</stone>
+      <wood>24</wood>
+      <stone>72</stone>
     </Resources>
   </Cost>
   <GarrisonHolder>
     <Max>4</Max>
   </GarrisonHolder>
   <Health>
-    <Max>2400</Max>
+    <Max>3000</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_wall_medium</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Classes datatype="tokens">WallMedium</Classes>
   </Identity>
   <Loot>
-    <stone>5</stone>
+    <wood>5</wood>
+    <stone>14</stone>
   </Loot>
   <VisualActor>
     <FoundationActor>structures/fndn_6x3_wall.xml</FoundationActor>
