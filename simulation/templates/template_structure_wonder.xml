@@ -54,6 +54,7 @@
   <ProductionQueue>
     <Technologies datatype="tokens">
       wonder_population_cap
+      attack_soldiers_will
     </Technologies>
   </ProductionQueue>
   <ResourceTrickle>

@@ -1,0 +1,18 @@
+{
+	"genericName": "Iron Arrowheads",
+	"description": "Arrowheads made of iron enable arrows to penetrate deeper.",
+	"cost": {
+		"wood": 300,
+		"metal": 200
+	},
+	"requirements": { "tech": "phase_town" },
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "arrow.png",
+	"researchTime": 40,
+	"tooltip": "Archers +15% ranged attack damage.",
+	"modifications": [
+		{ "value": "Attack/Ranged/Damage/Pierce", "multiply": 1.15 }
+	],
+	"affects": ["Archer"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

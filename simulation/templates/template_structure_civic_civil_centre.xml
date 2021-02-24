@@ -109,7 +109,6 @@
       unlock_shared_dropsites
       unlock_spies
       spy_counter
-      archery_tradition
     </Technologies>
   </ProductionQueue>
   <ResourceDropsite>
