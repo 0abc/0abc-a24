@@ -2,9 +2,6 @@
 <Entity parent="template_structure_defensive_tower">
   <Attack>
     <Ranged>
-      <Damage>
-        <Pierce>9</Pierce>
-      </Damage>
       <ElevationBonus>9</ElevationBonus>
     </Ranged>
   </Attack>
@@ -22,12 +19,12 @@
     <Max>3</Max>
   </GarrisonHolder>
   <Health>
-    <Max>500</Max>
+    <Max>400</Max>
   </Health>
   <Identity>
     <GenericName>Sentry Tower</GenericName>
     <SelectionGroupName>template_structure_defensive_tower_sentry</SelectionGroupName>
-    <Tooltip>Garrison Infantry for additional arrows. Needs the “Murder Holes” technology to protect its foot.</Tooltip>
+    <Tooltip>Garrison Infantry for additional arrows.</Tooltip>
     <VisibleClasses datatype="tokens">Village SentryTower</VisibleClasses>
     <Icon>structures/sentry_tower.png</Icon>
     <RequiredTechnology>phase_village</RequiredTechnology>
@@ -38,20 +35,6 @@
   <Obstruction>
     <Static width="9.0" depth="7.5"/>
   </Obstruction>
-  <ProductionQueue>
-    <Technologies datatype="tokens">
-      tower_watch
-    </Technologies>
-  </ProductionQueue>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Hack op="add">-5</Hack>
-        <Pierce op="add">-5</Pierce>
-        <Crush op="add">-2</Crush>
-      </Damage>
-    </Entity>
-  </Resistance>
   <TerritoryInfluence>
     <Root>false</Root>
     <Radius>16</Radius>

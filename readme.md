@@ -1,5 +1,5 @@
 # 0 A.D. is Actually Before Christ
-**0abc**, a modification of “0 A.D. Empires Ascendant”, version 0.0.24 “Alpha XXIV: Xšayāršā” (IPA: /xʃajaːr̩ʃaː/ Old Persian: 𐎧𐏁𐎹𐎠𐎼𐏁𐎠).
+**0abc**, a modification of “0 A.D. Empires Ascendant”, version 0.0.24 “Alpha XXIV: Xšayāršā” (IPA: /xʃajaːr̩ʃaː/).
 
 
 
@@ -51,6 +51,7 @@
   * elephants: 90
   * artillery: 100
 * Unit base movement speed is slightly lowered.
+* All structures have the same resistances.
 * Houses no longer have technologies nor can train female workers.
 * Barracks trains advanced infantry by default and is postponed to the town phase.
 * Civic centres can no longer train cavalry.

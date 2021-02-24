@@ -15,7 +15,7 @@
     <PassRange>2</PassRange>
   </Gate>
   <Health>
-    <Max>2500</Max>
+    <Max>3000</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_wall_long</SpawnEntityOnDeath>
   </Health>
   <Identity>

@@ -4,7 +4,7 @@
     <Ranged>
       <AttackName>Bow</AttackName>
       <Damage>
-        <Pierce>25</Pierce>
+        <Pierce>10</Pierce>
       </Damage>
       <MaxRange>60</MaxRange>
       <MinRange>0</MinRange>
@@ -13,7 +13,7 @@
       <Delay>0</Delay>
       <Projectile>
         <Speed>100</Speed>
-        <Spread>1.5</Spread>
+        <Spread>2</Spread>
         <Gravity>50</Gravity>
         <FriendlyFire>false</FriendlyFire>
         <LaunchPoint y="3"/>
@@ -26,7 +26,7 @@
     </Ranged>
   </Attack>
   <BuildingAI>
-    <DefaultArrowCount>1</DefaultArrowCount>
+    <DefaultArrowCount>3</DefaultArrowCount>
     <MaxArrowCount>15</MaxArrowCount>
     <GarrisonArrowMultiplier>1</GarrisonArrowMultiplier>
     <GarrisonArrowClasses>Soldier</GarrisonArrowClasses>
@@ -45,9 +45,9 @@
     <GarrisonRegenRate>3.0</GarrisonRegenRate>
   </Capturable>
   <Cost>
-    <BuildTime>250</BuildTime>
+    <BuildTime>300</BuildTime>
     <Resources>
-      <wood>500</wood>
+      <wood>600</wood>
     </Resources>
   </Cost>
   <Footprint>
@@ -63,7 +63,7 @@
     <LoadingRange>6</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>2500</Max>
+    <Max>3000</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_rome_sb</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -77,20 +77,11 @@
     <RequiredTechnology>phase_city</RequiredTechnology>
   </Identity>
   <Loot>
-    <wood>100</wood>
+    <wood>120</wood>
   </Loot>
   <Obstruction>
     <Static width="36.0" depth="36.0"/>
   </Obstruction>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Hack>15</Hack>
-        <Pierce>25</Pierce>
-        <Crush>2</Crush>
-      </Damage>
-    </Entity>
-  </Resistance>
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_broch.xml</select>

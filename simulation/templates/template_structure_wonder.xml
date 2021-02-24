@@ -31,7 +31,7 @@
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
   <Health>
-    <Max>5000</Max>
+    <Max>6000</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -56,22 +56,6 @@
       wonder_population_cap
     </Technologies>
   </ProductionQueue>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Hack>15</Hack>
-        <Pierce>25</Pierce>
-        <Crush>3</Crush>
-      </Damage>
-    </Entity>
-    <Foundation>
-      <Damage>
-        <Hack>2</Hack>
-        <Pierce>10</Pierce>
-        <Crush>2</Crush>
-      </Damage>
-    </Foundation>
-  </Resistance>
   <ResourceTrickle>
     <Rates>
       <silver>1</silver>

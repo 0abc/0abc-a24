@@ -115,9 +115,9 @@
         </Poisoned>
       </ApplyStatus>
       <Damage>
-        <Crush>1</Crush>
-        <Hack>1</Hack>
-        <Pierce>1</Pierce>
+        <Crush>0</Crush>
+        <Hack>20</Hack>
+        <Pierce>40</Pierce>
         <Thrust>30</Thrust>
       </Damage>
     </Entity>
@@ -129,9 +129,7 @@
         </Poisoned>
       </ApplyStatus>
       <Damage>
-        <Hack>1</Hack>
-        <Pierce>1</Pierce>
-        <Crush>1</Crush>
+        <Pierce>10</Pierce>
       </Damage>
     </Foundation>
   </Resistance>

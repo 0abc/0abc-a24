@@ -34,15 +34,6 @@
   </Obstruction>
   <ProductionQueue disable=""/>
   <RallyPoint disable=""/>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Hack>15</Hack>
-        <Pierce>40</Pierce>
-        <Crush>5</Crush>
-      </Damage>
-    </Entity>
-  </Resistance>
   <ResourceSupply>
     <KillBeforeGather>false</KillBeforeGather>
     <Amount>Infinity</Amount>

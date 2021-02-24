@@ -65,13 +65,6 @@
   <RallyPointRenderer>
     <LinePassabilityClass>ship</LinePassabilityClass>
   </RallyPointRenderer>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Pierce>35</Pierce>
-      </Damage>
-    </Entity>
-  </Resistance>
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_dock.xml</select>

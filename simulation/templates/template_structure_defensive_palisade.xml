@@ -10,7 +10,7 @@
     <RegenRate>1.0</RegenRate>
   </Capturable>
   <Health>
-    <Max>1000</Max>
+    <Max>500</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_2x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -22,15 +22,6 @@
   </Identity>
   <ProductionQueue disable=""/>
   <RallyPoint disable=""/>
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Hack>4</Hack>
-        <Pierce>25</Pierce>
-        <Crush>2</Crush>
-      </Damage>
-    </Entity>
-  </Resistance>
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_wall.xml</select>
