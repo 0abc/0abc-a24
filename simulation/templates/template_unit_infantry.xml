@@ -58,7 +58,7 @@
   </Health>
   <Identity>
     <Classes datatype="tokens">Human CitizenSoldier</Classes>
-    <VisibleClasses datatype="tokens">Citizen Worker Soldier Infantry</VisibleClasses>
+    <VisibleClasses datatype="tokens">Citizen Builder Worker Soldier Infantry</VisibleClasses>
     <GenericName>Infantry</GenericName>
     <Rank>Basic</Rank>
   </Identity>

@@ -36,6 +36,7 @@
   * Mercenaries cost silver, no other resources.
   * Some technologies cost silver.
   * Espionage cost silver instead of metal.
+* Female citizens can no longer build, only infantry can.
 * All support units are bribable.
 * Some civilization bonuses have been removed or replaced.
 * Team bonuses have been deprecated.
