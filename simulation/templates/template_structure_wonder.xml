@@ -55,6 +55,7 @@
     <Technologies datatype="tokens">
       wonder_population_cap
       attack_soldiers_will
+      parade_of_daphne
     </Technologies>
   </ProductionQueue>
   <ResourceTrickle>

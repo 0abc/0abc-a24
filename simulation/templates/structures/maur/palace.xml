@@ -21,7 +21,7 @@
     <Civ>maur</Civ>
     <GenericName>Palace</GenericName>
     <SpecificName>Harmya</SpecificName>
-    <Tooltip>Territory root. Train Maiden Guards and Heroes.</Tooltip>
+    <Tooltip>Territory root. Train Maiden Guards.</Tooltip>
     <Classes datatype="tokens">ConquestCritical CivSpecific</Classes>
     <VisibleClasses datatype="tokens">Palace</VisibleClasses>
     <Icon>gaia/special_stoa.png</Icon>
@@ -38,9 +38,6 @@
     <Entities datatype="tokens">
       units/{civ}/champion_maiden
       units/{civ}/champion_maiden_archer
-      units/{civ}/hero_chanakya
-      units/{civ}/hero_chandragupta
-      units/{civ}/hero_ashoka
     </Entities>
     <Technologies datatype="tokens">
       unlock_shared_los

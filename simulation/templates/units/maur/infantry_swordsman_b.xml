@@ -5,11 +5,6 @@
       <AttackName context="Name of an attack using a single-edged sword.">Sword</AttackName>
     </Melee>
   </Attack>
-  <Builder>
-    <Entities datatype="tokens">
-      structures/maur/palace
-    </Entities>
-  </Builder>
   <Identity>
     <Civ>maur</Civ>
     <SelectionGroupName>units/maur/infantry_swordsman_b</SelectionGroupName>

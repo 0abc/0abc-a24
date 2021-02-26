@@ -59,6 +59,7 @@
       infantry_cost_time
       unlock_champion_infantry
       pair_unlock_champions_sele
+      silvershields
     </Technologies>
   </ProductionQueue>
   <Sound>
